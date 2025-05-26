@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;  
+}
+
+body {
+	background-color: black;
+	min-width: 1200px;
+}
+
+li, a{
+    font-family: Avenir;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: azure;
+    text-decoration: none;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    height: 55px; width: 300px;
+}
+
+.nav_links{
+    list-style: none;
+
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links{
+    transition: all o.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #aa272f;
+
+}
+
+button{
+    color: azure;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 9px 25px;
+    background-color: #aa272f;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all o.3s ease 0s;;
+
+}
+button:hover{
+    background-color: #f3646d;;
+
+}
+
+.hero-section{
+    background-image: url("images/foodpfc.png");
+    background-size: cover;
+    height: 600px;
+
+}
+
+.hero-msg{
+    display: flex;
+    font-family: Avenir;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    background-color: #aa272f;
+    color: azure;
+    padding: 6px;
+    
+}
+
+
+
+
+.hero-card{
+   text-align: center;
+   font-family: Avenir;
+   text-transform: uppercase;
+   color: #aa272f;
+   font-size: 20px;
+}
+
+/* Menu section **/
+.menu {
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: Avenir;
+    height: 80px;
+   
+} 
+
+.menu a{
+    font-size: 18px;
+	font-weight: 700;
+}
+div.top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+   
+}
+
+.menu a:hover{
+    color: #aa272f;
+}
+/* .all-items{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-evenly;
+    
+} */
+
+.box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	align-items: center;
+}
+
+.items{
+	font-family: Avenir;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #aa272f;
+	padding-left: 27px;
+	margin: 15px;
+}
+
+.items img {
+	height: 200px;
+	width: 290px;
+}
+
+.app-items {
+    padding-top: 50px;
+}
+
+.dimsum-items {
+    padding-top: 50px;
+}
+
+.salad-items {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.soup-items {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.sushi-items {
+    padding-top: 50px;
+ 
+}
+    
+.seafood-items {
+    padding-top: 50px;
+}
+
+.poultry-items {
+    padding-top: 50px;
+}
+
+.beef-items {
+    padding-top: 50px;
+}
+
+
+.noodles-rice-items {
+    padding-top: 50px;
+}
+
+.vegeterian-items {
+    padding-top: 50px;
+}
+
+.dessert-items {
+    padding-top: 50px;
+}
+
+
+.carafe-items {
+    padding-top: 50px;
+}
+
+.mocktail-items {
+    padding-top: 50px;
+}
+
+
+.juice-items {
+  padding-top: 50px;
+  padding-left: 5px;
+}
+
+
+
+.soda-items {
+    padding-top: 50px;
+}
+
+.icedtea-items {
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.coffee-items {
+    padding-top: 50px;
+}
+
+.tea-items {
+    padding-top: 50px;
+
+}
+
+.water-items {
+    padding-top: 50px;
+
+}
+
+.kids-items {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    flex-direction: row;
+    justify-content:left;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+p {
+    color: azure;
+    font-size: 13px;
+    margin: 5px;
+    
+}
+
+
+.new{
+    font-family: Avenir;
+    font-size: larger;
+    text-align:center;
+    padding: 15px;
+    color: azure;
+
+}
+
+h2{
+    font-family: futura;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+/* .line {
+    background-color: #aa272f;
+} */
+
+.foot-pannel {
+	border-top: 1px solid #442d31;
+	background-color: #aa272f;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 18px;
+}
+
+.logo1 {
+	background-image: url("images/pflogo.webp");
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 45px;
+	width: 100px;
+	
+}
+
+.footer {
+	background-color: #aa272f;
+	font-family: Avenir;
+	color: white;
+	font-size: 0.75rem;
+	height: 70px;
+	text-align: center;
+}
+
+.pages {
+	padding-top: 10px;
+}
+.pages a {
+	margin: 10px;
+	font-size: small;
+}
+
+.copyright {
+	padding-top: 5px;
+}
