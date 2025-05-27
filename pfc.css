@@ -150,106 +150,12 @@ div.top {
     padding-top: 50px;
 }
 
-.dimsum-items {
-    padding-top: 50px;
-}
-
-.salad-items {
-    padding-top: 50px;
-    padding-left: 5px;
-}
-
-.soup-items {
-    padding-top: 50px;
-    padding-left: 5px;
-}
-
-.sushi-items {
-    padding-top: 50px;
- 
-}
-    
-.seafood-items {
-    padding-top: 50px;
-}
-
-.poultry-items {
-    padding-top: 50px;
-}
-
-.beef-items {
-    padding-top: 50px;
-}
-
-
-.noodles-rice-items {
-    padding-top: 50px;
-}
-
-.vegeterian-items {
-    padding-top: 50px;
-}
-
-.dessert-items {
-    padding-top: 50px;
-}
-
-
-.carafe-items {
-    padding-top: 50px;
-}
-
-.mocktail-items {
-    padding-top: 50px;
-}
-
-
-.juice-items {
-  padding-top: 50px;
-  padding-left: 5px;
-}
-
-
-
-.soda-items {
-    padding-top: 50px;
-}
-
-.icedtea-items {
-    padding-top: 50px;
-    padding-left: 5px;
-}
-
-.coffee-items {
-    padding-top: 50px;
-}
-
-.tea-items {
-    padding-top: 50px;
-
-}
-
-.water-items {
-    padding-top: 50px;
-
-}
-
-.kids-items {
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-    flex-direction: row;
-    justify-content:left;
-    padding-top: 50px;
-    padding-left: 5px;
-}
-
 p {
     color: azure;
     font-size: 13px;
     margin: 5px;
     
 }
-
 
 .new{
     font-family: Avenir;
