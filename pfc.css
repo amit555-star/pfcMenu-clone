@@ -82,6 +82,9 @@ button:hover{
 .hero-section{
     background-image: url("images/foodpfc.png");
     background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     height: 600px;
 
 }
@@ -148,16 +151,15 @@ div.top {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #aa272f;
-	margin: 15px;
-	padding-left: 15px;
-    /* width: 23%; */
+	/* margin: 15px; */
+	padding-left: 35px;
+	/* width: 25%; */
 }
 
 .items img {
-	height: 260px;
-	width: 240px;
+	height: 250px;
+	width: 220px;
 	margin: 30px;
-	align-content: center;
 	padding: 20px 0px 15px;
 }
 
@@ -166,11 +168,11 @@ p {
     color: azure;
     font-size: 13px;
     margin: 5px;  
-	padding-left: 25px;
+	padding-left: 20px;
 }
 
 h3 {
-	padding-left: 25px;
+	padding-left: 20px;
 }
 
 
