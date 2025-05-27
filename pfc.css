@@ -7,10 +7,11 @@
 
 body {
 	background-color: black;
-	/* max-width: 1700px; */
-	min-width: 1200px;
+	max-width: 1700px;
+	min-width: 1000px;
 	overflow-x: auto;
 	margin: 0 auto;
+	padding: 0 20px;
 }
 
 li, a{
@@ -20,14 +21,20 @@ li, a{
     text-transform: uppercase;
     color: azure;
     text-decoration: none;
+	flex-shrink: 0;
 
 }
 
 header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	align-items: center;
     align-items: center;
-    padding: 30px 10%;
+	height: 120px;
+    min-width: 1000px;
+	overflow-x: auto;
 }
 
 .logo{
@@ -75,6 +82,9 @@ button:hover{
 .hero-section{
     background-image: url("images/foodpfc.png");
     background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     height: 600px;
 
 }
@@ -136,17 +146,18 @@ div.top {
 }
 
 .items{
+	height: 350px;
 	font-family: Avenir;
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #aa272f;
-	margin: 15px;
-	padding-left: 60px;
-	width: 20%;
+	/* margin: 15px; */
+	padding-left: 30px;
+	/* width: 25%; */
 }
 
 .items img {
-	height: 200px;
+	height: 250px;
 	width: 250px;
 	margin: 30px;
 	padding: 20px 0px 15px;
@@ -156,9 +167,14 @@ div.top {
 p {
     color: azure;
     font-size: 13px;
-    margin: 5px;
-    
+    margin: 5px;  
+	padding-left: 25px;
 }
+
+h3 {
+	padding-left: 25px;
+}
+
 
 .new{
     font-family: Avenir;
@@ -187,7 +203,7 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 18px;
+	margin-top: 30px;
 }
 
 .logo1 {
