@@ -7,7 +7,10 @@
 
 body {
 	background-color: black;
-	min-width: 1200px;
+	/* max-width: 1700px; */
+	min-width: 1500px;
+	overflow-x: auto;
+	margin: 0 auto;
 }
 
 li, a{
@@ -137,18 +140,18 @@ div.top {
 	font-size: 14px;
 	text-transform: uppercase;
 	color: #aa272f;
-	padding-left: 27px;
 	margin: 15px;
+	padding-left: 27px;
+	width: 20%;
 }
 
 .items img {
 	height: 200px;
 	width: 290px;
+	margin: 30px;
+	padding: 20px 0px 15px;
 }
 
-.app-items {
-    padding-top: 50px;
-}
 
 p {
     color: azure;
