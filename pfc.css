@@ -77,14 +77,7 @@ button:hover{
 }
 
 .hero-msg{
-    display: flex;
-    font-family: Avenir;
-    font-size: 18px;
-    font-weight: 300;
-    align-items: center;
-    justify-content: center;
-    background-color: #aa272f;
-    color: azure;
+	background-color: #aa272f;
     padding: 6px;
     
 }
@@ -135,7 +128,7 @@ div.top {
 .box {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: start;
+	justify-content: flex-start;
 	align-items: center;
 }
 
