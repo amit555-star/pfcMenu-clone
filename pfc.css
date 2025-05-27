@@ -8,7 +8,7 @@
 body {
 	background-color: black;
 	/* max-width: 1700px; */
-	min-width: 1500px;
+	min-width: 1200px;
 	overflow-x: auto;
 	margin: 0 auto;
 }
@@ -141,13 +141,13 @@ div.top {
 	text-transform: uppercase;
 	color: #aa272f;
 	margin: 15px;
-	padding-left: 27px;
+	padding-left: 60px;
 	width: 20%;
 }
 
 .items img {
 	height: 200px;
-	width: 290px;
+	width: 250px;
 	margin: 30px;
 	padding: 20px 0px 15px;
 }
