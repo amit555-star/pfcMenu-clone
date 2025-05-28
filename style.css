@@ -147,6 +147,7 @@ button:hover {
 h3, .price {
   margin: 10px 0;
   color: azure;
+  text-transform: uppercase;
 }
 
 h2 {
