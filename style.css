@@ -103,7 +103,7 @@ button:hover {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 150px;
   /* gap: 10px; */
