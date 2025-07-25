@@ -59,6 +59,7 @@ button {
   font-size: 16px;
   padding: 8px 20px;
   background-color: #aa272f;
+  text-transform: uppercase;
   border: none;
   border-radius: 50px;
   cursor: pointer;
